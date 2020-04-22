@@ -5,10 +5,10 @@ def join_nested_strings(src)
     x = 0 
     while x < src[i].length do
       current = src[i][x] 
-      if (current.class == 'String')
-        puts current
-        str += current
-      end
+      # if (current.class == 'String')
+      #   puts current
+      #   str += current
+      # end
       x+=1
     end
     i +=1
