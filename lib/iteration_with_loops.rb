@@ -2,16 +2,17 @@ def join_nested_strings(src)
   str = '';
   i = 0 
   while i < src.length do
-    x = 0 
-    while x < src[i].length do
+    # x = 0 
+    # while x < src[i].length do
       current = src[i][x] 
       # if (current.class == 'String')
       #   puts current
       #   str += current
       # end
       puts current
-      x+=1
-    end
+      # x+=1
+    # end
+    puts src[i]
     i +=1
   end
   return str
