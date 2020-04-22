@@ -9,6 +9,7 @@ def join_nested_strings(src)
       #   puts current
       #   str += current
       # end
+      puts current
       x+=1
     end
     i +=1
