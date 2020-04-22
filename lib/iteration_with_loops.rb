@@ -6,6 +6,7 @@ def join_nested_strings(src)
     while x < src[i].length do
       current = src[i][x]
       if (current.class == 'String')
+        puts current
         str += current
       end
       x+=1
