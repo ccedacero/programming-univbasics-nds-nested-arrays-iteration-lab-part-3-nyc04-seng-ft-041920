@@ -4,9 +4,9 @@ def join_nested_strings(src)
   while i < src.length do
     if src[i].class == 'String'
     puts src[i]
-    i +=1
   end
   # return str
+      i +=1
 end
 end
   # src will be an Array of Arrays of Strings and Integers
