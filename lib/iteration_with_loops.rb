@@ -2,7 +2,7 @@ def join_nested_strings(src)
   str = [];
   i = 0 
   while i < src.length do
-    puts src[i].class
+    puts src[i][0].class
   #   if src[i].class == 'String'
   # end
   i +=1
