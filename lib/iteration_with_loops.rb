@@ -1,5 +1,5 @@
 def join_nested_strings(src)
-  str;
+  str = '';
   i = 0 
   while i < src.length do
     x = 0 
