@@ -5,7 +5,13 @@ def join_nested_strings(src)
     x = 0 
     while x < src[i].length do
       current = src[i][x]
-      if (current.class.)
+      if (current.class == 'String')
+        str += current
+      end
+      x+=1
+    end
+    i +=1
+  end
   
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
